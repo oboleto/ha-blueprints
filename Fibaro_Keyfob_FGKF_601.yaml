@@ -20,7 +20,7 @@ blueprint:
         device:
           integration: zwave_js
           manufacturer: Fibargroup
-          model: FGKF601
+          model: FGKF-601
 # Square button
     tap_top_left_actions:
       name: '1x Press Square # button'
