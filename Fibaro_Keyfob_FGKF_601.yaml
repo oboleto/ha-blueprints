@@ -178,7 +178,9 @@ blueprint:
         action:
       default: []
 
-mode: single
+mode: parallel
+max: 25
+max_exceeded: silent
 trigger:
 - platform: event
   event_type: zwave_js_value_notification
